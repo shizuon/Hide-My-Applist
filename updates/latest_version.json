@@ -4,5 +4,9 @@
     "VersionName": "V2.1.4",
     "DownloadURL": "https://github.com/Dr-TSNG/Hide-My-Applist/releases/tag/V2.1.4"
   },
-  "Beta": false
+  "Beta": {
+    "VersionCode": 66,
+    "VersionName": "V2.2",
+    "DownloadURL": "https://github.com/Dr-TSNG/Hide-My-Applist/releases/tag/V2.2"
+  }
 }
