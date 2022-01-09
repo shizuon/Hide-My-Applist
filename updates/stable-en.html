@@ -1,8 +1,16 @@
 <b><font color="red">Attention: You should and <u>ONLY</u> should check System Framework in Xposed activation scope</font></b><br/>
-<b>Don't be mean for a few seconds. Read the about page, which will save you a lot of time asking everywhere how to use this module</b><br/>
-<b>XP V2.2.4</b><br/>
-<p>Add install extension button on main page</p>
-<p>Fix scroll bug</p>
-<b>XP V2.2.3 + Magisk V0.7.1</b><br/>
-<p>Fix duplicate data directory problem</p>
-<p>Update translations</p>
+<p><strong>V2.3.2 Final Version</strong></p><br/>
+<p>Changelog:<br/>Add syscall interception<br/>Remove maps interception (Because it is meaningless. Though I am
+    lazy to remove it from UI)<br/>Support Zygisk (<strong>Be sure to remove the old Magisk module first!</strong>)</p><br/>
+<p>It has been a long time since the last version was released. Due to various trivial matters, HMA will stop
+    updating. This means that V2.3.2 will probably be the last version of this project, but there are still a lot of
+    known bugs (If the Magisk module is enabled with the Xposed module disabled, it will cause bootloop; After
+    switching on file interception, some banks are not functioning properly). </p><br/>
+<p>Note: <strong>Uninstall old Magisk extension</strong> before updating to V2.3.2, then install the new one via the
+    install button in the app. If you encounter unable to get root access, please manually extract the installer
+    from the apk and rename it to <code>Riru-HideMyApplist.zip</code> or <code>Zygisk-HideMyApplist.zip</code> and
+    install it manually with the <code>magisk --install-module zippath</code> command. </p><br/>
+<p>Although HMA is suspended, you are still welcome to submit translations or fix PRs, and if you want to join the
+    discussion group, please check the first pinned message in the Telegram channel. My new app is still on
+    development, but it&#39;s not clear when the first preview version will be released. Thank you all for your
+    support along the way, and I look forward to seeing you all on the new journey as we part for the better. </p>

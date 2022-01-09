@@ -1,8 +1,11 @@
 <b><font color="red">注意：Xposed作用域应该且<u>只应该</u>勾选系统框架</font></b><br/>
-<b>不要吝啬几秒钟去看看关于页面，这会节省很多到处去问怎么使用本模块的时间</b><br/>
-<b>XP V2.2.4</b><br/>
-<p>首页添加安装插件按钮</p>
-<p>修复滑动问题</p>
-<b>XP V2.2.3 + Magisk V0.7.1</b><br/>
-<p>修复重复数据目录问题</p>
-<p>更新翻译</p>
+<p><strong>V2.3.2 最终版本</strong></p><br/>
+<p>更新日志：<br/>添加 syscall 拦截<br/>移除 maps 拦截（因为没有意义。UI懒得删了）<br/>支持 Zygisk（<strong>一定记得先删除旧的 Magisk 模块！</strong>）
+</p><br/>
+<p>距离上个版本发布已经过了很长一段时间。由于各种琐事，本项目将停止更新，这也意味着 V2.3.2 将可能是本项目的最后一个版本，不过仍然存在很多已知 bug（比如如果 Xposed 模块被禁用的情况下未禁用 Magisk
+    模块则将会导致 bootloop、开启文件拦截后后部分银行闪退）。 </p><br/>
+<p>注意：更新 V2.3.2 后，<strong>请务必先卸载旧的 Magisk 插件</strong>，并通过应用内的安装按钮安装新的插件。若出现无法获取 root 权限的提示，请手动从 apk 中提取安装包并重命名为
+    <code>Riru-HideMyApplist.zip</code> 或 <code>Zygisk-HideMyApplist.zip</code> 后通过
+    <code>magisk --install-module zip路径</code> 安装指令手动安装。 </p><br/>
+<p>虽然 HMA 已经暂停更新，不过仍然欢迎提交翻译或是修复PR，如果希望加入讨论组，请查看 Telegram 频道的第一个置顶。我的新 app
+    仍在继续开发中，不过不清楚什么时候能够发布第一个预览版本。感谢大家一路的支持，暂时的离别是为了更好的相逢，期待与你们在新的旅程相见。</p>
